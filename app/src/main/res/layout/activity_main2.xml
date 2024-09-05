@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_bc4dd49f849c9b8f622ebc6938ddb7d"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+ <LinearLayout
+     android:id="@+id/linearLayout"
+     android:layout_width="392dp"
+     android:layout_height="672dp"
+     android:gravity="bottom"
+     android:orientation="vertical">
+
+
+  <Button
+      android:id="@+id/back_btn"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:backgroundTint="@color/material_dynamic_tertiary80"
+      android:padding="12sp"
+      android:text="Cerrar Seccion"
+      android:textColor="@color/white"
+      android:textSize="34sp" />
+ </LinearLayout>
+
+</RelativeLayout>
